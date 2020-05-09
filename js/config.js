@@ -1,5 +1,5 @@
 let score = 0,
-    goal_score = 250;
+    goal_score = 170;
 let pac_color = "yellow",
     last_move = 1;
 let time_left, interval;
