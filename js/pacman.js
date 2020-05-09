@@ -9,7 +9,7 @@ const actors = {
     blue: 6,
     pink: 7,
     yellow: 8,
-    moving_food: 8,
+    s_food: 8,
     poison: 9,
     gift: 10,
     p5_ball: 11,
@@ -330,6 +330,8 @@ function Finish() {
         }
         hearts -= 1;
         lblHeart.value = printHearts(hearts + 1);
+        score -=10;
+        lblScore.value = score;
     } else {
         stopMusic();
         gameOver = true;
